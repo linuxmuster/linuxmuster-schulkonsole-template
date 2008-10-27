@@ -1,0 +1,517 @@
+/* Styles for Open Source Version of Schulkonsole */
+
+body { margin: 0; padding: 0; width: 1010px; font-family: Verdana, sans-serif; fonz-size: 12px; }
+
+#header {
+border: none;
+height: 45px;
+font-size: 10px;
+background: #000;
+color: #cecece;
+padding: 2px;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 0; 
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #efefef;
+}
+
+#header img {	
+display:none;
+visibility: hidden;
+}
+
+
+#menu {
+  border: none;
+  height: 20px;
+}
+
+#menu div {
+	width: 570px;
+}
+
+#menu a {
+	position: relative;
+	margin: 0;
+        margin-bottom: 1px;
+	margin-right: 1px;
+	float: left;
+	height: 18px;
+	padding-top: 3px;
+	width: 100px;
+	padding-left: 3px;
+	color: #000;
+	font-size: 12px;
+	background-color: #ffddb5;
+	text-decoration: none;
+}
+
+
+
+#menu a.current, #menu a.currentparent { 
+  color: #eee; 
+  background-color: #ff8a00; 
+  }
+
+#menu a:hover {
+	color: #000;
+	background-color: #ccc;
+}
+
+
+#submenu {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 184px;
+	margin-top: 2px;
+	top: 120px;
+	bottom: 20px;
+	overflow: hidden;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000;
+}
+
+#submenu a,
+#submenu .disabled, 
+#submenu .disabledseparator, 
+#submenu .disabledend,
+#submenu .tworowdisabled, 
+#submenu .tworowdisabledseparator, 
+#submenu .tworowdisabledend
+{
+	position: relative;
+	margin: 0 0 1px 0;
+	display: block;
+	height: 21px;
+	width: 182px;
+	padding-top: 7px;
+	padding-left: 4px;
+	left: 0;
+	top: 0;
+	float: left;
+	text-decoration: none;
+	overflow: hidden;
+	color: #000;
+	background-color: #ffddb5;
+}
+
+
+#submenu a {
+ text-decoration: underline;
+}
+#submenu .disabled, 
+#submenu .disabledseparator, 
+#submenu .disabledend {
+ color: #ccc;
+}
+#submenu a:hover {
+	color: #555;
+	background-color: #ccc
+}
+
+
+#subsubmenu a.todo, #subsubmenu a.todocurrent {
+	color: #666666;
+	background-color: #ffdbdb;
+}
+
+#content {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+
+	width: 586px;
+	padding-left: 27px;
+	padding-right: 31px;
+
+	margin-top: 3px;
+
+	top: 120px;
+	left: 183px;
+	bottom: 36px;
+
+	overflow: auto;
+
+	font-weight: normal;
+	font-size: 11px;
+}
+
+#content h2 {
+	margin-top: 10px;
+	margin-bottom: 4px;
+	padding: 0;
+
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#content input,
+#content select,
+#content textarea {
+	font-size: 11px;
+}
+
+#content select {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-width: 2px;
+}
+
+#content p {
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+}
+
+#content .hint {
+	color: #999999;
+	font-size: 10px;
+}
+
+#content a {
+	color: #0000ee;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#content a:hover {
+	color: #cc3333;
+}
+
+#content table {
+	font-size: 11px;
+}
+
+#info {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 166px;
+	top: 120px;
+	left: 826px;
+	bottom: 16px;
+	overflow: auto;
+	font-weight: normal;
+	font-size: 11px;
+	background-color: #edf3fe;
+	border: 1px solid #ccc;
+}
+
+#info p {
+	padding: 3px;;
+	margin: 0;
+}
+
+
+#info a {
+	color: #0000aa;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#info a:hover {
+	color: #cc3333;
+}
+
+#info h2 {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0;
+  margin: 4px 0 0 4px;
+  }
+
+#info ul { 
+  padding: 16px; 
+  margin :0;
+  }
+
+#status {
+	margin: 0;
+	padding: 3px;
+	font-size: 11px;
+	min-height: 32px;
+	overflow: hidden;
+}
+
+
+
+#status p {
+	margin: 0;
+	padding: 0;
+}
+
+
+#status.ok {
+	color: white;
+	background-color: #007e00;
+}
+
+#status.error {
+	color: white;
+	background-color: #db1704;
+}
+
+#status.error div {
+	background-image: url(../img/info-rot.png);
+}
+
+#status.ok p.info, #status.error p.info {
+	display: none;
+}
+
+label.error {
+	color: #d54f4f;
+}
+
+
+p.selectdomain {
+	float: right;
+}
+
+form.singleton {
+	float: left;
+}
+
+
+hr {
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 1px;
+
+	clear: left;
+
+	border: none;
+
+}
+
+
+/* not MOII style guide)  */
+
+th {
+	vertical-align: top;
+}
+
+
+
+table.liste td {
+	vertical-align: top;
+}
+
+.settings td {
+	vertical-align: middle;
+}
+
+
+table.liste > tr:first-child,
+table.liste th {
+	text-align: left;
+	background-color: #f3f3f3;
+}
+
+
+
+table.liste tr {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+
+table.liste tr.even,
+table.liste tr.hosteven,
+table.settings tr.even {
+	background-color: #edf3fe;
+}
+
+table.liste tr.odd,
+table.liste tr.hostodd,
+table.settings tr.odd {
+	background-color: #ffffff;
+}
+
+table.liste tr.hostodd > td:first-child,
+table.liste tr.hosteven > td:first-child {
+	padding-left: 2em;
+}
+
+table.liste tr.unset {
+	background-color: #ffffff;
+	color: #999999;
+}
+
+
+table.liste tr.editing {
+	background-color: #deffdf;
+}
+
+
+.important {
+	font-size: +140%;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #d54f4f;
+}
+
+.important strong {
+	font-style: italic;
+}
+
+#diskquotas,
+#mailquotas,
+#roomshares,
+#roomhandoutcopy,
+#roomhandout,
+#classesoverview,
+#classshares,
+#classhandout,
+#classhandoutcopy,
+#classwww,
+#projectshares,
+#projecthandout,
+#projecthandoutcopy,
+#projectwww,
+#quotasteachers,
+#quotasclasses,
+#quotasprojects,
+#rooms,
+#linbooverview,
+#linboregpatchoverview,
+#linbopxeoverview {
+	width: 62%;
+}
+
+#roomoverview,
+#printersoverview,
+#roomcollect,
+#classoverview,
+#classpasswords,
+#classcollect,
+#searchstudents,
+#searchteachers,
+#searchclasses,
+#searchprojects,
+#projectcollect,
+#projectmemberclasses,
+#projectmemberprojects,
+#projectmemberteachers,
+#projectmemberstudents,
+.settings,
+#quotaswww,
+#quotasadmins,
+#quotasstudents,
+#quotasworkstations,
+#quotassystem,
+#printers,
+#printersedit,
+#teachersedit,
+#teachersadd,
+#teachersdelete,
+#teacherspasswords,
+#teachin,
+#usersdelete,
+#commitadd,
+#commitmove,
+#commitkill,
+.tabletable,
+#linbobaseimages,
+#linboimages {
+	width: 100%;
+}
+
+#printersedit select {
+	max-height: 230px;
+}
+
+#hosts input, #hosts select {
+	font-size: 9px;
+}
+
+#hosts select {
+	min-height: 2px;
+	height: 16px;
+}
+
+#hosts {
+	margin-left: -11px;
+}
+
+td select {
+    width: 100%;
+	}
+
+#action td {
+	text-align: center;
+	vertical-align: middle;
+	background: red;
+}
+
+/+ linbo seite */
+#imageinfo, #imagelist {
+	margin: 0;
+	border-top: 2px solid #888888;
+	border-left: 2px solid #888888;
+	border-bottom: 2px solid #dddddd;
+	border-right: 2px solid #dddddd;
+	width: 84ex;
+	height: 50ex;
+	overflow: auto;
+}
+	
+
+/* quota */
+
+td li span {
+	display: block;
+	background-color: #6c71b3;
+}
+
+td li.warn span {
+	background-color: #d54f4f;
+}
+
+td ul {
+	list-style-type: none;
+	margin: 1px;
+	padding: 0;
+}
+
+td ul li {
+	margin: 0;
+	margin-top: 2ex;
+	padding: 0;
+	border: 1px solid black;
+	width: 100%;
+	font-size: 25%;
+	background-color: white;
+}
+
+td p {
+	display: none;
+}
+
+td:hover p {
+	display: block;
+	position: absolute;
+	border: 1px solid black;
+	background: #ffddb5;
+	padding: .4ex;
+	z-index: 1000;
+}
+
+
+
+#content textarea {
+	white-space: pre;
+}
