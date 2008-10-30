@@ -1,14 +1,13 @@
 Source: linuxmuster-schulkonsole-templates-openlml
 Section: debian-linuxmuster
 Priority: optional
-Maintainer: Nobody <nobody@nowhere.now>
+Maintainer: Frank Schiebel <frank@linuxmuster.net>
 Build-Depends: debhelper (>= 4.0.0)
 Standards-Version: 3.6.0
 
 Package: linuxmuster-schulkonsole-templates-openlml
 Section: unknown
 Priority: optional
-Maintainer: Nobody <nobody@nowhere.now>
 Architecture: i386
 Depends: linuxmuster-schulkonsole (>=0.9.16.3)
 Conflicts: linuxmuster-schulkonsole-templates-paedml
