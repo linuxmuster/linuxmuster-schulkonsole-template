@@ -1,3 +1,10 @@
+linuxmuster-schulkonsole-templates-openlml (0.9.17-0) openlml; urgency=low
+
+  * changed version according to next schulkonsole
+  * Removed 4th version number - template 0.9.17 should work with all 0.9.17.x SKs
+
+ -- Frank Schiebel <frank@linuxmuster.net>  Fri, 31 Oct 2008 19:20:49 +0100
+
 linuxmuster-schulkonsole-templates-openlml (0.9.16.3-1) openlml; urgency=low
 
   * openlml Repo
