@@ -1,3 +1,13 @@
+linuxmuster-schulkonsole-template (0.10.0-4) main; urgency=low
+
+  * first version for a community project
+  * changed package name an section
+  * improved colors, design and - hopefully - usability
+  * changed control file to completely replace all other templates for
+    schulkonsole
+
+ -- Frank Schiebel <frank@linuxmuster.net>  Sun, 15 Jul 2012 20:14:52 +0200
+
 linuxmuster-schulkonsole-templates-openlml (0.9.17-0) openlml; urgency=low
 
   * changed version according to next schulkonsole
