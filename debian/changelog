@@ -1,3 +1,13 @@
+linuxmuster-schulkonsole-template (0.10.0-5) main; urgency=low
+
+  * package modifications necessary for precise build:
+    * created debian/compat with level 5.
+    * changed architecture to all in debian/control.
+    * removed etc/* and var/* from debian/install.
+    * increased DH_COMPAT to 5 in debian/rules.
+
+ -- Thomas Schmitt <tschmitt@linuxmuster.de>  Mon, 16 Jul 2012 12:29:00 +0200
+
 linuxmuster-schulkonsole-template (0.10.0-4) main; urgency=low
 
   * first version for a community project
