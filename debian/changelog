@@ -1,3 +1,9 @@
+linuxmuster-schulkonsole-template (0.10.0-6) main; urgency=low
+
+  * debian/control: changed section to web.
+
+ -- Thomas Schmitt <tschmitt@linuxmuster.de>  Mon, 23 Jul 2012 15:05:00 +0200
+
 linuxmuster-schulkonsole-template (0.10.0-5) main; urgency=low
 
   * package modifications necessary for precise build:

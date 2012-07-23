@@ -1,12 +1,12 @@
 Source: linuxmuster-schulkonsole-template
-Section: linuxmuster
+Section: web
 Priority: optional
 Maintainer: Frank Schiebel <frank@linuxmuster.net>
 Build-Depends: debhelper (>= 4.0.0)
 Standards-Version: 3.6.0
 
 Package: linuxmuster-schulkonsole-template
-Section: linuxmuster
+Section: web
 Priority: optional
 Architecture: all
 Depends: linuxmuster-schulkonsole (>=0.9.16.3)
