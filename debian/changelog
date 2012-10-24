@@ -1,9 +1,9 @@
 linuxmuster-schulkonsole-template (0.10.1-0) precise; urgency=low
 
   * added favicon.ico.
-  * changed openlml.png to linuxmuster.png in header.shtml.inc.
+  * removed obsolete reference to openlml.png from header.shtml.inc (closes #14).
 
- -- Thomas Schmitt <tschmitt@linuxmuster.de>  Wed, 24 Oct 2012 15:18:00 +0200
+ -- Thomas Schmitt <tschmitt@linuxmuster.de>  Wed, 24 Oct 2012 15:30:00 +0200
 
 linuxmuster-schulkonsole-template (0.10.0-6) main; urgency=low
 
