@@ -14,7 +14,7 @@
     <!--#endif -->
 <!--#endif -->
 <gettext>Version</gettext> <!--#echo var="version" -->
-<img src="img/openlml.png" alt="">
+<img src="img/linuxmuster.png" alt="">
 </div>
 
 <!--#include file="menu.shtml.inc" -->
