@@ -6,43 +6,43 @@ body {
     width: 100%;
     font-family: Verdana, sans-serif;
     font-size: 12px;
+    background: #FBFAF9 url("img/page-gradient.png") top left repeat-x;
 }
-
 
 #header {
     border: none;
     height: 50px;
     font-size: 10px;
-    background: #fff url("img/linuxmuster.png") top left no-repeat;
     color: #cecece;
-    padding: 0px 0px 5px 220px;
+    padding: 5px;
     margin: 0;
+    background: transparent url("img/logo_sk.png") top right no-repeat;
+    max-width: 1014px;
 }
 
 #header h1 {
     margin: 0;
     padding: 0;
     font-family: Verdana, sans-serif;
+    font-size: 20px;
+    color: #999999;
     font-weight: bold;
-    font-size: 16px;
-    color: #777;
+    text-shadow: 2px 2px 0 #FFFFFF;
 }
 
 #header img {
-    display:none;
-    visibility: hidden;
+    display: none;
+    visibility:0;
 }
-
 
 #menu {
     border: none;
     height: 23px;
-    background-color: #eee46b;
+    background-color: #83a5d2;
     margin: 0;
     margin-bottom: 1px;
     margin-right: 1px;
 }
-
 
 #menu a {
     font-size: 11px;
@@ -50,18 +50,15 @@ body {
     float: left;
     height: 20px;
     padding-top: 3px;
-    width: 100px;
-    padding-left: 4px;
-    color: #444;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
     font-weight: bold;
-    text-shadow: 1px 1px 0 #ddd;
-    background-color: #eee46b;
+    background-color: #83a5d2;
     text-decoration: none;
     border:0;
-    border-right: 1px solid #fff;
+    border-right: 1px solid #FBFAF9;
 }
-
-
 
 #submenu a.current,
 #submenu a.tworowseparatorcurrent,
@@ -69,14 +66,14 @@ body {
 #submenu a.endcurrent,
 #menu a.current,
 #menu a.currentparent {
-  color: #333;
+  color: #fff;
   font-weight: bold;
-  background-color: #a9d400;
+  background-color: #3465A4;
   }
 
 #menu a:hover {
-    color: #000;
-    background-color: #eee13b;
+    color: #888;
+    background-color: #3C587B;
 }
 
 #submenu {
@@ -91,11 +88,9 @@ body {
     overflow: hidden;
     color: #444;
     font-weight: bold;
-    text-shadow: 1px 1px 0 #ddd;
     background-color: transparent;
     text-decoration: none;
 }
-
 
 #submenu a,
 #submenu .disabled,
@@ -117,7 +112,7 @@ body {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    background-color: #eee46b;
+    background-color: #83a5d2;
 }
 
 
@@ -140,9 +135,19 @@ body {
 #submenu .disabledend {
  color: #ccc;
 }
+
 #submenu a:hover {
     color: #000;
-    background-color: #eee13b;
+    background-color: #3C587B;
+}
+
+#submenu a.current:hover,
+#submenu a.separatorcurrent:hover,
+#submenu a.tworowseparatorcurrent:hover,
+#submenu a.endcurrent:hover
+{
+  color: #fff;
+  background-color: #3465A4;
 }
 
 
@@ -156,11 +161,9 @@ body {
     margin: 0;
     padding: 0;
     width: 560px;
-    padding-left: 27px;
-    padding-right: 31px;
-
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 3px;
-
     top: 120px;
     left: 190px;
     bottom: 36px;
@@ -169,10 +172,14 @@ body {
     font-weight: normal;
 }
 
-div.nosubmenu {
-    left: 20px !important;
-    width: 900px !important;
-}
+body.start #submenu { width:0; display:none; visibility: none;}
+body.start #content { width:780px; left:0px}
+
+body.printers #submenu { width:0; display:none; visibility: none;}
+body.printers #content { width:780px; left:0px}
+body.hosts #submenu { width:0; display:none; visibility: none;}
+body.hosts #content { width:780px; left:0px}
+
 
 #content h2 {
     margin-top: 10px;
@@ -186,6 +193,7 @@ div.nosubmenu {
 #content input,
 #content select,
 #content textarea {
+    font-size: 11px;
 }
 
 #content select {
@@ -207,13 +215,13 @@ div.nosubmenu {
 }
 
 #content a {
-    color: #327e00;
+    color: #11386B;
     font-weight: bold;
     text-decoration: underline;
 }
 
 #content a:hover {
-    color: #4cc200;
+    color: #6695D2;
 }
 
 #content table {
@@ -231,10 +239,10 @@ table#classesoverview input {
     position: absolute;
     top: 120px;
     left: 780px;
-    padding: 0;
+    padding: 3px;
     width: 240px;
-    background-color: #fff;
-    border-left: 1px solid #ccc;
+    background-color: #FBFAF9;
+    border: 1px solid #dbdbe3;
     z-index:4;
 }
 
@@ -247,10 +255,6 @@ table#classesoverview input {
     padding: 3px;
     font-size: 10px;
     margin: 0;
-}
-
-#info h2 {
-    border-top: 1px solid #ccc;
 }
 
 #info a {
@@ -276,6 +280,8 @@ table#classesoverview input {
   }
 
 #status {
+    background-color: #dbdbe3;
+    min-height: 150px;
 }
 
 
@@ -293,7 +299,7 @@ table#classesoverview input {
     padding: 3px;
     font-size: 12px;
     font-weight: bold;
-    min-height: 40px;
+    min-height: 150px;
     overflow: hidden;
 }
 
@@ -304,7 +310,7 @@ table#classesoverview input {
     padding: 3px;
     font-size: 12px;
     font-weight: bold;
-    min-height: 40px;
+    min-height: 150px;
     overflow: hidden;
 }
 
@@ -380,7 +386,7 @@ table.liste tr {
 table.liste tr.even,
 table.liste tr.hosteven,
 table.settings tr.even {
-    background-color: #e0eaba;
+    background-color: #dbdbe3;
 }
 
 table.liste tr.odd,
@@ -553,7 +559,7 @@ td:hover p {
     display: block;
     position: absolute;
     border: 1px solid black;
-    background: #eee46b;
+    background: #dbdbe3 ;
     padding: .4ex;
     z-index: 1000;
 }

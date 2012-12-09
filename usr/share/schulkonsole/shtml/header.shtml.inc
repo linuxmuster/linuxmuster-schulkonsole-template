@@ -14,6 +14,7 @@
     <!--#endif -->
 <!--#endif -->
 <gettext>Version</gettext> <!--#echo var="version" -->
+Hallo<!--#echo var="action" -->
 <img src="img/openlml.png" alt="">
 </div>
 
