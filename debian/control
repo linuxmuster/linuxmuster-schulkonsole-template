@@ -9,7 +9,7 @@ Package: linuxmuster-schulkonsole-template
 Section: web
 Priority: optional
 Architecture: all
-Depends: linuxmuster-schulkonsole (>=0.9.16.3)
+Depends: linuxmuster-schulkonsole (>=0.9.33)
 Provides: linuxmuster-schulkonsole-templates-paedml, linuxmuster-schulkonsole-templates-base
 Conflicts: linuxmuster-schulkonsole-templates-paedml, linuxmuster-schulkonsole-templates-base
 Replaces: linuxmuster-schulkonsole-templates-paedml, linuxmuster-schulkonsole-templates-base

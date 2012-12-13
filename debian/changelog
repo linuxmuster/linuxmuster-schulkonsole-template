@@ -1,4 +1,4 @@
-linuxmuster-schulkonsole-template (0.9.33-lenny1) openml5-testing; urgency=low
+linuxmuster-schulkonsole-template (0.9.33-lenny2) openml5-testing; urgency=low
 
   * Added icons for linbo actions
   * Removed unused string from header
