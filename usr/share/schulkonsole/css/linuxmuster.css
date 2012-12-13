@@ -62,6 +62,7 @@ body {
 
 #submenu a.current,
 #submenu a.tworowseparatorcurrent,
+#submenu a.tworowcurrent,
 #submenu a.separatorcurrent,
 #submenu a.endcurrent,
 #menu a.current,
@@ -118,6 +119,7 @@ body {
 
 #submenu a.tworow,
 #submenu a.tworowseparatorcurrent,
+#submenu a.tworowcurrent,
 #submenu a.tworowseparator,
 #submenu a.tworowdisabled,
 #submenu a.tworowdisabledseparator,
@@ -144,6 +146,7 @@ body {
 #submenu a.current:hover,
 #submenu a.separatorcurrent:hover,
 #submenu a.tworowseparatorcurrent:hover,
+#submenu a.tworowcurrent:hover,
 #submenu a.endcurrent:hover
 {
   color: #fff;
@@ -569,3 +572,35 @@ td:hover p {
 #content textarea {
     white-space: pre;
 }
+
+input.btn-linbo-move {
+    background: url("img/rename.png") no-repeat scroll center center transparent;
+    border: 0 none;
+    color: transparent;
+}
+input.btn-linbo-copy {
+    background: url("img/edit-copy.png") no-repeat scroll center center transparent;
+    border: 0 none;
+    color: transparent;
+}
+input.btn-linbo-trash {
+    background: url("img/edit-delete.png") no-repeat scroll center center transparent;
+    border: 0 none;
+    color: transparent;
+}
+input.btn-linbo-edit {
+    background: url("img/edit.png") no-repeat scroll center center transparent;
+    border: 0 none;
+    color: transparent;
+}
+input.btn-linbo-showinfo {
+    background: url("img/info.png") no-repeat scroll center center transparent;
+    border: 0 none;
+    color: transparent;
+}
+input.btn-linbo-list {
+    background: url("img/list.png") no-repeat scroll center center transparent;
+    border: 0 none;
+    color: transparent;
+}
+
