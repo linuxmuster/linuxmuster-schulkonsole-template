@@ -17,7 +17,7 @@ body {
     padding: 5px;
     margin: 0;
     background: transparent url("img/logo_sk.png") top right no-repeat;
-    max-width: 1014px;
+    max-width: 1086px;
 }
 
 #header h1 {
@@ -241,7 +241,7 @@ table#classesoverview input {
 #info {
     position: absolute;
     top: 120px;
-    left: 780px;
+    left: 850px;
     padding: 3px;
     width: 240px;
     background-color: #FBFAF9;
@@ -442,7 +442,6 @@ table.liste tr.editing {
 #quotasteachers,
 #quotasclasses,
 #quotasprojects,
-#rooms,
 #linbooverview,
 #linboregpatchoverview,
 #linbopxeoverview {
@@ -470,8 +469,10 @@ table.liste tr.editing {
 #quotasstudents,
 #quotasworkstations,
 #quotassystem,
+#rooms,
 #printers,
 #printersedit,
+#hosts,
 #teachersedit,
 #teachersadd,
 #teachersdelete,
@@ -498,10 +499,6 @@ width: 9em;
 }
 
 #hosts select {
-}
-
-#hosts {
-    margin-left: -11px;
 }
 
 td select {

@@ -1,3 +1,16 @@
+linuxmuster-schulkonsole-template (0.10.3-0ubuntu0) precise; urgency=low
+
+  * layout fixes (closes #22).
+  * added missing icons.
+
+ -- Thomas Schmitt <thomas@linuxmuster.net>  Fri, 01 Feb 2013 18:55:45 +0100
+
+linuxmuster-schulkonsole-template (0.10.2-0ubuntu0) precise; urgency=low
+
+  * rebuild for precise.
+
+ -- Thomas Schmitt <tschmitt@linuxmuster.de>  Fri, 18 Jan 2013 15:23:00 +0100
+
 linuxmuster-schulkonsole-template (0.9.33-lenny2) openml5-testing; urgency=low
 
   * Added icons for linbo actions
