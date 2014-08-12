@@ -16,8 +16,9 @@ body {
     color: #cecece;
     padding: 5px;
     margin: 0;
+    margin-right: 20px;
     background: transparent url("img/logo_sk.png") top right no-repeat;
-    max-width: 1086px;
+    max-width: 99%;
 }
 
 #header h1 {
@@ -241,12 +242,21 @@ table#classesoverview input {
 #info {
     position: absolute;
     top: 120px;
-    left: 850px;
+    right: 20px;
     padding: 3px;
     width: 240px;
     background-color: #FBFAF9;
     border: 1px solid #dbdbe3;
     z-index:4;
+    display: block;
+}
+
+#info a.hideinfo {
+    display: block;
+    text-align: right;
+    font-size: 8px;
+    text-decoration: none;
+    color: #bbb;
 }
 
 #info p {
@@ -600,4 +610,15 @@ input.btn-linbo-list {
     border: 0 none;
     color: transparent;
 }
+
+.wspxe {
+    width: 9em;
+}
+.wsopts {
+    width: 8em;
+}
+.wsdel {
+    width: 1.2em;
+}
+
 

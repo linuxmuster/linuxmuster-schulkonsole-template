@@ -1,3 +1,9 @@
+linuxmuster-schulkonsole-template (0.10.13-0) precise; urgency=low
+
+  * Moved info box to the right.
+
+ -- Frank Schiebel <frank@linuxmuster.net>  Thu, 07 Aug 2014 13:32:21 +0200
+
 linuxmuster-schulkonsole-template (0.10.3-0ubuntu0) precise; urgency=low
 
   * layout fixes (closes #22).
