@@ -176,13 +176,13 @@ body {
     font-weight: normal;
 }
 
-body.start #submenu { width:0; display:none; visibility: none;}
-body.start #content { width:780px; left:0px}
+body#start #submenu { width:0; display:none; visibility: none;}
+body#start #content { width:780px; left:0px}
 
-body.printers #submenu { width:0; display:none; visibility: none;}
-body.printers #content { width:780px; left:0px}
-body.hosts #submenu { width:0; display:none; visibility: none;}
-body.hosts #content { width:780px; left:0px}
+body#printers #submenu { width:0; display:none; visibility: none;}
+body#printers #content { width:780px; left:0px}
+body#hosts #submenu { width:0; display:none; visibility: none;}
+body#hosts #content { width:780px; left:0px}
 
 
 #content h2 {
