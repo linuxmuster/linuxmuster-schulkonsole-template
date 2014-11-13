@@ -1,3 +1,9 @@
+linuxmuster-schulkonsole-template (0.10.13-1) babo; urgency=low
+
+  * Move tables to left border for hosts, printers, start in linuxmuster.css.
+
+ -- Frank Schütte <fschuett@gymnasium-himmelsthuer.de>  Wed, 12 Nov 2014 08:15:35 +0100
+
 linuxmuster-schulkonsole-template (0.10.13-0) precise; urgency=low
 
   * Moved info box to the right.
