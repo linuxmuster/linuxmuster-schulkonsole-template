@@ -305,36 +305,6 @@ table#classesoverview input {
 }
 
 
-#status.ok {
-    color: white;
-    background-color: #a9d400;
-    margin: 0;
-    padding: 3px;
-    font-size: 12px;
-    font-weight: bold;
-    min-height: 150px;
-    overflow: hidden;
-}
-
-#status.error {
-    color: white;
-    background-color: #dd6400;
-    margin: 0;
-    padding: 3px;
-    font-size: 12px;
-    font-weight: bold;
-    min-height: 150px;
-    overflow: hidden;
-}
-
-#status.error div {
-    background-image: url(../img/info-rot.png);
-}
-
-#status.ok p.info, #status.error p.info {
-    display: none;
-}
-
 label.error {
     color: #d54f4f;
 }
@@ -620,5 +590,3 @@ input.btn-linbo-list {
 .wsdel {
     width: 1.2em;
 }
-
-
