@@ -14,6 +14,8 @@
     <!--#endif -->
 <!--#endif -->
 <gettext>Version</gettext> <!--#echo var="version" -->
+<!--#echo var="action" -->
+</div>
 </div>
 
 <!--#include file="menu.shtml.inc" -->
