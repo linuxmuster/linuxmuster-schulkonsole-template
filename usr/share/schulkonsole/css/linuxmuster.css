@@ -297,13 +297,25 @@ table#classesoverview input {
     min-height: 150px;
 }
 
-
+#status.ok {
+    color: white;
+    background-color: #a9d400;
+    margin: 0;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    min-height: 150px;
+    overflow: hidden;
+}
 
 #status p {
     margin: 0;
     padding: 0;
 }
 
+#status.ok p.info {
+    display: none;
+}
 
 label.error {
     color: #d54f4f;
